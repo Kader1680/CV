@@ -24,10 +24,10 @@ body{
 .container header {
     text-align: center;
     padding: 124px 0px;
-    background-image: url('../../Easy_Profil/images/bg.jpg');
+    /* background-image: url('../../Easy_Profil/images/bg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    
 }
 header .image {
     margin: 45px 0px;
@@ -189,12 +189,10 @@ header h2 {
     }
     .grid {
         display: grid;
-        grid-template-columns: 39% 0%;
-        margin-top: 5rem;
-        margin-left: 3rem;	
+        grid-template-columns: 31% 32% 37%;
     }
     .container header {
-        margin-top: 9rem;
+        margin-top: -3rem;
     }
     header .image {
         margin: 45px 0px;
@@ -206,9 +204,9 @@ header h2 {
     
     
     
-    .easy_profil h3{
+    /* .easy_profil h3{
         font-size: 36px;
-    }
+    } */
     .easy_profil h2{
         font-size: 36px;
         margin: 20px 0px;
@@ -217,34 +215,13 @@ header h2 {
         font-size: 16px;
         line-height: 1.7;
     }
-    .container .skill {
-        margin-bottom: -95px;
-        background-color: var(--gray);
-        color: white;
-        width: 30rem;
-        margin-left: 3rem;
-    }
     .skill h3 {
         font-size: 25px;
+        color: black;
     }
-    .progress {
-        display: grid;
-        grid-template-columns: 50%;
-    }
-    /* .progress label {
-        font-size: 15px;
-    }
-    .progress progress {
-        width: 100%;
-        font-size: 13px;
-        margin: 8px 0px;
-    } */
-    
+
     .container .education {
-        background-color: var(--gray);
-        color: white;
-        width: 34rem;
-        height: 245px;
+        height: 13rem;
         margin: 91px 0px;
     }
     .education h3{
@@ -258,10 +235,10 @@ header h2 {
         margin-bottom: 6px;
     }
     .container .langage {
-        width: 18rem;
-        height: 240px;
-        margin: 94px 240px;
-    }
+        width: 100%;
+        height: 300px;
+        margin: 91px 0px;
+    } 
     .langage h3{
         font-size: 36px;
     }
@@ -280,8 +257,8 @@ header h2 {
     }
     .container .Contact {
         text-align: center;
-        margin-top: -60px;
-        width: 55rem;
+        height: 13rem;
+        margin: 91px 0px;
     }
     .Contact .index{
         font-size: 23px;
@@ -315,9 +292,8 @@ header h2 {
 }
 
 @media(min-width:1200px){
-    .grid {
-        margin-top: 12rem;
-        margin-left: 9rem;
+    .container header {
+        margin-top: -3rem;
     }
     .education p{
         font-size: 16px;
@@ -326,13 +302,9 @@ header h2 {
         margin-bottom: 6px;
     }
     .container .langage {
-        width: 20rem;
-        height: 240px;
-        margin: 94px 205px;
-    }
-    .container .Contact {
-        text-align: center;
-        width: 59rem;
+        width: 25rem;
+        height: 300px;
+        
     }
 }
 
